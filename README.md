@@ -18,9 +18,10 @@ However, they can be accessed using the code in the notebooks and links provided
 - Preprocessing: Removed HTML tags, lowercased text, tokenized reviews
 
 ## Pre-trained Model
-- Model: DistilBERT base uncased
+- Models: SiEBERT - English-Language Sentiment Classification (https://huggingface.co/siebert/sentiment-roberta-large-english)
+- Model 2 was DistilBERT base uncased (https://huggingface.co/distilbert/distilbert-base-uncased)
 - Architecture: Transformer-based language model
-- Pre-training: Trained on general English corpus
+- It enables reliable binary sentiment analysis for various types of English-language text.
 - Reason for selection: Efficient balance of performance and computational requirements
 
 ## Performance Metrics
@@ -43,4 +44,7 @@ Most impactful hyperparameters:
 2. Batch size: Affected training speed and stability
 3. Number of epochs: Balanced between underfitting and overfitting
 
+## Final Model 
+
+Model - [https://huggingface.co/Mahikajain/my_model]
 
